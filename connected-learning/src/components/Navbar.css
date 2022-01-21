@@ -7,7 +7,7 @@ body{
 .header{
     
     background-color: blue; 
-    background: linear-gradient(50deg,violet 0% , blue 30%, violet 90%);
+    background: linear-gradient(50deg,rgb(26, 25, 26) 0% , rgb(22, 22, 78) 30%, rgb(105, 30, 71) 90%);
 }
 .horizontal-list{
     list-style: none;
