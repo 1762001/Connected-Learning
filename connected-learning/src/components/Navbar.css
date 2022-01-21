@@ -1,7 +1,8 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    margin-top: -1.25rem;
+    margin-top: -2rem;
+  
 }
 
 .header{
@@ -11,19 +12,26 @@ body{
 }
 .horizontal-list{
     list-style: none;
-    padding: 0px;
-    /* margin-bottom: -50px; */
+    padding: 10px;
+     margin-right:-2rem;
+
 }
 .horizontal-list li{
     display: inline-block;
-    margin: 0.5rem;
+    margin-right: 2rem;
+    
+    
     
     
 }
 .horizontal-list a{
     color: antiquewhite;
-    font-size: 1.1rem; 
-    transition: 0.5s color border-bottom 0.4s;
+    font-size: 1.5rem;
+    transition: ease-in all .5s color border-bottom 0.4s;
+    -webkit-transition: ease-in all .5s color border-bottom 0.4s;
+    -moz-transition: ease-in all .5s color border-bottom 0.4s;
+    -ms-transition: ease-in all .5s color border-bottom 0.4s;
+    -o-transition: ease-in all .5s color border-bottom 0.4s;
 }
 .text-right{
     text-align: right;
@@ -32,7 +40,7 @@ a{
     text-decoration: none;
 }
 #websiteName span ,#websiteName h2{
-    height: 10px;
+    height: 2px;
     display: inline-block;
     margin-left: 10px;
     font-size: 2rem;
@@ -40,20 +48,21 @@ a{
     font-family: cursive;
     margin-top: 0.2rem;
     padding-top: 1rem;
-    margin-bottom: -1rem;
+    padding-bottom: -1rem;
+    
     
 }
 #websiteName{
     
     
     align-items: center !important;
-    margin-bottom: -1rem !important;
+    margin-bottom: -3.4rem !important;
     
 }
 .nav{
-    /* margin-left: 42vw !important; */
-    /* display: flex;
-    flex-wrap: wrap; */
+     margin-left: 42vw !important; 
+     display: flex;
+    flex-wrap: wrap; 
     justify-content: flex-end;
     
     
@@ -66,7 +75,7 @@ a{
     cursor: pointer;
 }
 .nav li a:hover{
-    color: #4f4f4f;
+    color: #03030369;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -76,7 +85,7 @@ a{
     background-color: black;
     color: white;
     text-align: left;
-    /* margin-left: 10px; */
+     margin-left: 10px; 
     width: 100%;
     height: 8%;
 }
