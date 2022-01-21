@@ -7,8 +7,8 @@ class Navbar extends Component {
         <div className="header">
         <div id="websiteName">
           <a href="/"><span style={{backgroundColor:"none"}}><i className="fab fa-accusoft"></i></span><span><h2>Connected learning</h2></span></a>
+
         </div>
-        
         <div className="nav">
           <ul className="horizontal-list text-right">
             
