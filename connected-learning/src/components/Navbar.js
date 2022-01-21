@@ -1,13 +1,4 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
-
-
-class Navbar extends Component {
-    render() {
-        return (
-            <div >
-                
-=======
 import './Navbar.css';
 class Navbar extends Component {
     render() {
@@ -34,7 +25,6 @@ class Navbar extends Component {
           </ul>
             
         </div>
->>>>>>> 13593e8813dc0ead4bb9976c294a0a71ed6e5da2
             </div>
         );
     }
