@@ -1,3 +1,7 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color: black; 
+    /* background: linear-gradient(55deg,rgba(18, 18, 19, 0.568) 0% , rgb(11, 11, 48) 30%, rgb(68, 15, 44) 90%); */
+}
