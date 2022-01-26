@@ -1,7 +1,7 @@
 import React from 'react';
 import Books from './Books';
-import './Content.css'
-function Content() {
+import './Content1.css'
+function Content1() {
   return (
     <div className='content'>
         <h1 className='mt-2 center'>BOOKS</h1>
@@ -23,4 +23,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Content1;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './components/Banner';
-import Content from './components/Content';
+import Content1 from './components/Content1'
 import Sidebar from './components/Sidebar'
 
 function BookStore() {
@@ -8,7 +8,7 @@ function BookStore() {
       <div className="book_store">
         <Banner/>
         <Sidebar/>
-        <Content/>
+        <Content1/>
       </div>
     );
   }
